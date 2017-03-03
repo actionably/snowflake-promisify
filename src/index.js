@@ -5,10 +5,11 @@ const q = require('q')
 class SnowflakeConnectionPromisified {
   constructor(connection) {
     this.connection = connection
-    this.connect = q.nbind(this.connection.connect, this.connection)
+    this.connectAsync = q.nbind(this.connection.connect, this.connection)
+    this.destroyAsync = q.nbind(this.connection.destroy, this.connection)
   }
 
-  execute(sqlStatement) {
+  executeAsync(sqlStatement) {
     return q.Promise((resolve, reject) => {
       this.connection.execute({
         sqlText: sqlStatement,
