@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "foobar"
+    "url": "https://github.com/actionably/snowflake-promisify"
   },
   "keywords": [
     "snowflakedb"
