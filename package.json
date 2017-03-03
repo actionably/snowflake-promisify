@@ -1,0 +1,21 @@
+{
+  "name": "snowflake-promisify",
+  "version": "1.0.0",
+  "description": "promisify the snowflake connection returned from snowflakedb library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "foobar"
+  },
+  "keywords": [
+    "snowflakedb"
+  ],
+  "author": "Dashbot",
+  "license": "MIT",
+  "dependencies": {
+    "q": "^1.4.1"
+  }
+}
