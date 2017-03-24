@@ -1,6 +1,6 @@
 {
   "name": "snowflake-promisify",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "promisify the snowflake connection returned from snowflakedb library",
   "main": "src/index.js",
   "scripts": {
