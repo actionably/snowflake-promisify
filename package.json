@@ -16,8 +16,8 @@
   "author": "Dashbot",
   "license": "MIT",
   "dependencies": {
-    "lodash": "4.17.11",
-    "q": "1.4.1"
+    "lodash": "^4.17.20",
+    "q": "^1.5.1"
   },
   "devDependencies": {
     "eslint": "3.4.0",
