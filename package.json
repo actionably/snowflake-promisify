@@ -27,7 +27,7 @@
     "eslint-plugin-node": "2.0.0"
   },
   "engines": {
-    "node": "7.7.1"
+    "node": ">=7.7.1"
   },
   "eslintConfig": {
     "extends": [
